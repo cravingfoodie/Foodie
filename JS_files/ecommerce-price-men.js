@@ -107,42 +107,42 @@ $(document).on('click', '.next', function () {
 });
 
 
-//for single slider
-$(window).on('load', function () {
-  $('.single-slider').slick({
-    dots: false,
-    infinite: false,
-    autoplaySpeed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 3,
-          arrows: false,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 2,
-          arrows: false,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 1,
-          arrows: false,
-          dots: false
-        }
-      }
-    ]
-  });
-});
+// //for single slider
+// $(window).on('load', function () {
+//   $('.single-slider').slick({
+//     dots: false,
+//     infinite: false,
+//     autoplaySpeed: 300,
+//     slidesToShow: 4,
+//     slidesToScroll: 1,
+//     responsive: [
+//       {
+//         breakpoint: 1200,
+//         settings: {
+//           slidesToShow: 3,
+//           arrows: false,
+//           dots: false
+//         }
+//       },
+//       {
+//         breakpoint: 991,
+//         settings: {
+//           slidesToShow: 2,
+//           arrows: false,
+//           dots: false
+//         }
+//       },
+//       {
+//         breakpoint: 576,
+//         settings: {
+//           slidesToShow: 1,
+//           arrows: false,
+//           dots: false
+//         }
+//       }
+//     ]
+//   });
+// });
 
   //on scroll plugin//
   AOS.init({
