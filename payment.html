@@ -123,7 +123,19 @@
                             </div>
                             <div class="row pb-3">
                               <div class="col-6 text-right pr-0">
-                                <input type="text" placeholder="City/District/Town" style="width:90%;height:50px;" class="pl-3">
+                                <select id="district-select" style="width:90%;height:50px;" class="pl-3">
+                                  <option value="">Pilih Kecamatan</option>
+                                  <option value="Sukolilo">Sukolilo</option>
+                                  <option value="Mulyorejo">Mulyorejo</option>
+                                  <option value="Tambaksari">Tambaksari</option>
+                                  <option value="Gubeng">Gubeng</option>
+                                  <option value="Rungkut">Rungkut</option>
+                                  <option value="Tegalsari">Tegalsari</option>
+                                  <option value="Dukuh Pakis">Dukuh Pakis</option>
+                                  <option value="Sawahan">Sawahan</option>
+                                  <option value="Wonokromo">Wonokromo</option>
+                                  <option value="Karang Pilang">Karang Pilang</option>
+                                </select>
                               </div>
                               <div class="col-6">
                                 <input type="text" placeholder="State" style="width:90%;height:50px;" class="pl-3">
@@ -237,9 +249,8 @@
                           <div class="col-7 text-left">
                             Delivery Charges :
                           </div>
-                          <div class="col text-right">
-                            Free
-                          </div>
+                          <div class="col text-right" id="delivery-charge-amount">Rp. 0</div>
+
                         </div>
 
                         <hr>
